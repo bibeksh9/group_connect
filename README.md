@@ -23,7 +23,8 @@ To get started with the Group Connect project, follow these steps:
 1. Clone the repository: `git clone https://github.com/bibeksau/group_connect.git`
 2. Install dependencies: `npm run init`
 3. Start the client & server: `npm start`
-4. Test the server API: `npm test`
+4. Default email & password: `admin@admin.com & admin@123`
+5. Test the server API: `npm test`
 
 ## Contributing
 
