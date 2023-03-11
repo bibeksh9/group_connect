@@ -1,0 +1,70 @@
+.newUser {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 90dvh;
+    flex: 1;
+    justify-content: center;
+
+}
+
+button {
+    width: 200px;
+    align-self: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+.form-input,
+label,
+h2 {
+    position: relative !important;
+    align-self: center !important;
+}
+
+th,
+td {
+    border-style: none;
+}
+
+tr {
+    background-color: antiquewhite;
+}
+
+table {
+    width: 70%;
+}
+
+td {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border-collapse: separate;
+    border-spacing: 0 .5em;
+}
+
+.user>div {
+    align-self: center;
+}
+
+#listUser {
+    height: 95dvh;
+    flex-direction: column;
+    display: flex;
+    overflow-y: scroll;
+    align-items: center;
+}
+
+#viewUser {
+    display: flex;
+    flex-direction: column;
+}
+
+#modalBody {
+    padding: 15px;
+}

@@ -1,0 +1,68 @@
+#messagecontainer {
+    height: 90dvh;
+}
+
+#messageInput {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+#messages {
+    height: 84dvh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#messageInput>button {
+    flex: 1;
+}
+
+.space {
+    flex: 2
+}
+
+.tbox {
+    flex: 2;
+    align-items: flex-end;
+    margin: 10px;
+    min-height: 50px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.tbox>p {
+    padding: 5px;
+}
+
+.mbox {
+    display: flex;
+    flex-direction: row;
+}
+
+#header {
+    display: flex;
+    align-content: flex-end;
+    flex-direction: row;
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+#header #title {
+    align-items: flex-end;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+
+    font-size: 3em;
+}
+
+#header #buttons {
+    align-items: flex-end;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1
+}

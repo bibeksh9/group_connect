@@ -1,0 +1,14 @@
+{
+    "development": {
+        "dialect": "sqlite",
+        "storage": "group_message_dev.db"
+    },
+    "production": {
+        "dialect": "sqlite",
+        "storage": "group_message_prod.db"
+    },
+    "test": {
+        "dialect": "sqlite",
+        "storage": "group_message_test.db"
+    }
+}

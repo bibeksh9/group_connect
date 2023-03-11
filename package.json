@@ -1,0 +1,17 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "concurrently \"cd group_management_client && npm i\" \"cd group_management_server && npm i\"",
+    "start": "concurrently \"cd group_management_client  && npm run dev\" \"cd group_management_server && npm start\"",
+    "test": "concurrently \"cd group_management_server && npm test\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

@@ -1,0 +1,47 @@
+#maincontainer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#name>svg {
+    align-self: center;
+}
+
+#sidebar {
+    flex: 2;
+    height: 95dvh;
+    background-color: antiquewhite;
+    justify-content: center;
+    padding: 15px;
+}
+
+#detail {
+    flex: 8;
+
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+}
+
+#search>input {
+    flex: 3
+}
+
+#sidebar>button {
+    width: 30%;
+    align-self: center;
+}
+
+#profile {
+    display: flex;
+    justify-content: space-around;
+}
