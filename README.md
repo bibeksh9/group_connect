@@ -20,7 +20,7 @@ The Group Connect project uses the following technologies:
 
 To get started with the Group Connect project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/bibeksh9/group_connect.git`
+1. Clone the repository: `git clone https://github.com/bibeksh9/group_connect.git` and do `npm install`
 2. Install dependencies: `npm run init`
 3. Start the client & server: `npm start`
 4. Default email & password: `admin@admin.com & admin@123`
